@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Awesomebooks</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo"><a href="./index.html">Awesome Books</a></div>
+    <nav>
+      <ul class="menu-items">
+        <li class="nav-link first-menu"><a href="#list-section" id="top-list">List</a></li>
+        <li class="nav-link second-menu"><a href="#add-section" id="top-Add">Add New</a></li>
+        <li class="nav-link third-menu"><a href="#contact-section" id="top-contact">Contact</a></li>
+      </ul>
+    </nav>
+       
+  </header>
+  <div class="dt">
+    <p class="time"></p>
+  </div>
+  <div class="wrapper">
+    <section class="mybooks list-section">
+      <div class="title">
+        <h2>All awesome books</h2>
+      </div>
+      <div class="tables">
+        <table>
+          <tbody class="list">
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section class="addnew add-section">
+      <div class="title">
+        <h2>Add a new book</h2>
+      </div>
+      <form id="form">
+        <input type="text" id="mytitle" name="title" placeholder="Title" required /> <br><br>
+        <input type="text" id="myauthor" name="author" placeholder="Author" required />
+        <div class="btn"> <br>
+        <button type="submit">Add</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="contact-section">
+      <div class="title">
+        <h2>Contact Information</h2>
+      </div>
+      <div class="container">
+        <div class="contact-details">
+          <p>Do you have any question or you just want to say "Hello"?</p>
+          <p>You can reach out to us!</p>
+          <ul class="info">
+            <li>Our Email : mail@mail.com</li>
+            <li>Our Phone number : 0043586634422</li>
+            <li>Our Address : STreet name 22,84503 City, County</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer class="footer">
+    <div class="copyright">
+      <p>&copy; All rights reserved. 2022</p>
+    </div>
+  </footer>
+  <script src="./index.js" type="module"></script>
+</body>
+
+</html>
