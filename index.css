@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+.wrapper {
+  margin: 0 auto;
+}
+
+.dt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.fl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+body {
+  font-family: Abel, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #ebe0e02f;
+}
+
+.logo {
+  -ms-flex-preferred-size: 70%;
+  flex-basis: 70%;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 2px solid black;
+}
+
+header li {
+  list-style: none;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+header ul {
+  margin: 2px;
+}
+
+header .first-menu,
+header .second-menu {
+  border-right: 1px solid black;
+}
+
+.menu-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 10px;
+  width: 5em;
+}
+
+table tr:nth-child(even) {
+  background-color: rgba(5, 5, 5, 0.116);
+}
+
+.list-item {
+  border: white;
+}
+
+.addnew,
+.mybooks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+input[type='text'] {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.nav-link a:active {
+  color: #142aa8;
+}
+
+.nav-link a:hover {
+  color: #142aa8;
+}
+
+.nav-link a:focus {
+  color: #142aa8;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+button {
+  width: 8em;
+  padding: 5px;
+}
+
+h2 {
+  margin: 10px;
+  padding: 0;
+  color: #142aa8;
+  text-align: center;
+}
+
+h3 {
+  margin: 10px;
+  padding: 0;
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  width: 98%;
+  margin-bottom: 4px;
+  bottom: 0;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.list-section {
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.add-section,
+.addnew {
+  display: none;
+}
+
+.contact-section {
+  display: none;
+}
+
+#form {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 50%;
+}
+/*# sourceMappingURL=index.css.map */
