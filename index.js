@@ -3,7 +3,6 @@ import menuSection from './modules/menuSection.js';
 import { DateTime } from './modules/luxon.js';
 
 menuSection.MenuItems();
-
 const time = document.querySelector('.time');
 const currentTime = DateTime.now();
 time.innerHTML = `${currentTime.toJSDate()};`;
