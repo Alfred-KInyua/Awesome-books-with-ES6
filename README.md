@@ -1,8 +1,6 @@
 # Awesome-books-with-ES6
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Desktop Portfolio Project
-
 > This project demonstrates a simple SPA CRUD project built with javascript ES6 functions. The project allows users to add books and list books in local storage 
 
 ## Built With
